@@ -80,6 +80,10 @@
         <servlet-name>ListadoJugadoresServlet</servlet-name>
         <servlet-class>servlets.ListadoJugadoresServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>LoginEscuelaServlet</servlet-name>
+        <servlet-class>servlets.LoginEscuelaServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>NewServlet</servlet-name>
         <url-pattern>/NewServlet</url-pattern>
@@ -159,6 +163,10 @@
     <servlet-mapping>
         <servlet-name>ListadoJugadoresServlet</servlet-name>
         <url-pattern>/ListadoJugadoresServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginEscuelaServlet</servlet-name>
+        <url-pattern>/LoginEscuelaServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

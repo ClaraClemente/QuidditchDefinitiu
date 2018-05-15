@@ -8,7 +8,7 @@
     <body>
         <%
             String username = (String) session.getAttribute("user");
-            if (username != null) {
+            if (username == null) {
                  %>
                  <h1>No hay usuario validado</h1>
                  <%
@@ -20,6 +20,6 @@
                         <input type="submit" value="Modificar Perfil" name="modificarPerfilPlayers">
                     </form>
                 <% }
-    }%>
+    %>
     </body>
 </html>
